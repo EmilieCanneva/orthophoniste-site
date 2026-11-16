@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="fr" data-title-en="Resources — Emilie Canneva, Speech-Language Therapist in Vannes">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ressources — Emilie Canneva, Orthophoniste Vannes (Morbihan)</title>
+  <meta name="description" content="Jeux de langage oral et écrit, fiches et liens utiles proposés par Emilie Canneva, orthophoniste à Vannes (Morbihan).">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ================= EN-TÊTE (identique à index.html) ================= -->
+<header>
+  <div class="container nav">
+    <a href="./#accueil" class="logo">
+      <span class="logo-mark">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#3f7a6c" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12a8 8 0 0 1-11.6 7.1L4 20l1-4.6A8 8 0 1 1 21 12z"/></svg>
+      </span>
+      <span>Emilie Canneva<small><span class="fr">Orthophoniste · Vannes</span><span class="en">Speech therapist · Vannes</span></small></span>
+    </a>
+    <div class="nav-right">
+      <ul id="menu" onclick="this.classList.remove('open')">
+        <li><a href="./#services"><span class="fr">Mes services</span><span class="en">My services</span></a></li>
+        <li><a href="./#parcours"><span class="fr">Parcours à suivre</span><span class="en">Next steps</span></a></li>
+        <li><a href="./#a-propos"><span class="fr">À propos</span><span class="en">About</span></a></li>
+        <li><a href="ressources.html" class="active"><span class="fr">Ressources</span><span class="en">Resources</span></a></li>
+        <li><a href="./#temoignages"><span class="fr">Témoignages</span><span class="en">Testimonials</span></a></li>
+        <li><a href="./#contact">Contact</a></li>
+      </ul>
+      <button class="lang-btn" id="lang-btn" onclick="toggleLang()" aria-label="Changer de langue / Switch language">EN</button>
+      <button class="menu-btn" aria-label="Menu" onclick="document.getElementById('menu').classList.toggle('open')">
+        <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main>
+<section class="page-head">
+  <div class="container intro-split">
+    <div>
+    <span class="tag"><span class="fr">Pour les familles et les enseignants</span><span class="en">For families and teachers</span></span>
+    <h1 style="font-size:clamp(2rem,4.5vw,2.8rem);margin-bottom:14px"><span class="fr">Ressources</span><span class="en">Resources</span></h1>
+    <p class="lead fr">Des idées de jeux simples pour faire travailler le langage à la maison, des fiches pratiques et des liens utiles. Ces activités complètent la rééducation mais ne la remplacent pas.</p>
+    <p class="lead en">Simple game ideas to practise language at home, handouts and useful links. These activities complement therapy; they do not replace it.</p>
+    </div>
+    <img src="arbre.jpg" alt="Un arbre en fleurs dans un parc enneigé" class="square">
+  </div>
+</section>
+
+<!-- ================= JEUX ================= -->
+<section style="padding-top:20px">
+  <div class="container cards">
+    <article class="card">
+      <div class="icon i2">✍️</div>
+      <h3><span class="fr">Jeux de langage écrit</span><span class="en">Written language games</span></h3>
+      <ul class="fr">
+        <li><strong>Le petit bac</strong> : trouver un mot par catégorie qui commence par une lettre donnée.</li>
+        <li><strong>La chasse aux sons</strong> : repérer dans la maison des objets qui contiennent un son (« on », « ch »…).</li>
+        <li><strong>Le pendu</strong> avec des mots de la semaine, pour mémoriser l'orthographe.</li>
+        <li><strong>La dictée à l'envers</strong> : l'enfant dicte, l'adulte écrit en glissant des erreurs que l'enfant doit corriger.</li>
+        <li><strong>Mots mêlés et mots croisés</strong> adaptés à son niveau.</li>
+      </ul>
+      <ul class="en">
+        <li><strong>Category game</strong>: find a word for each category starting with a given letter.</li>
+        <li><strong>Sound hunt</strong>: find objects at home containing a given sound.</li>
+        <li><strong>Hangman</strong> with this week's spelling words.</li>
+        <li><strong>Reverse dictation</strong>: the child dictates, the adult writes with mistakes for the child to spot.</li>
+        <li><strong>Word searches and crosswords</strong> suited to their level.</li>
+      </ul>
+    </article>
+    <article class="card">
+      <div class="icon i1">🗣️</div>
+      <h3><span class="fr">Jeux de langage oral</span><span class="en">Oral language games</span></h3>
+      <ul class="fr">
+        <li><strong>Devinettes</strong> : décrire un objet sans le nommer.</li>
+        <li><strong>Rimes et comptines</strong> pour jouer avec les sons.</li>
+        <li><strong>« Je pars en voyage et j'emporte… »</strong> pour la mémoire et le vocabulaire.</li>
+        <li><strong>Raconter sa journée</strong> en trois étapes : d'abord, ensuite, enfin.</li>
+      </ul>
+      <ul class="en">
+        <li><strong>Riddles</strong>: describe an object without naming it.</li>
+        <li><strong>Rhymes and nursery songs</strong> to play with sounds.</li>
+        <li><strong>"I'm going on a trip and I'm packing…"</strong> for memory and vocabulary.</li>
+        <li><strong>Telling their day</strong> in three steps: first, then, finally.</li>
+      </ul>
+    </article>
+    <article class="card">
+      <div class="icon i3">📄</div>
+      <h3><span class="fr">Fiches pratiques</span><span class="en">Handouts</span></h3>
+      <p class="fr">Des fiches à télécharger (conseils aux parents, aménagements en classe…) seront bientôt disponibles ici.</p>
+      <p class="en">Downloadable handouts (tips for parents, classroom adjustments…) will be available here soon.</p>
+      <!-- Pour ajouter une fiche : déposez le PDF dans le dépôt puis ajoutez un lien, par ex. <a href="fiche-parents.pdf">Conseils aux parents (PDF)</a> -->
+    </article>
+  </div>
+</section>
+
+<!-- ================= LIENS UTILES ================= -->
+<section class="alt-bg">
+  <div class="container">
+    <h2><span class="fr">Liens utiles</span><span class="en">Useful links</span></h2>
+    <p class="lead"><span class="fr">Des sources fiables pour en savoir plus.</span><span class="en">Reliable sources to learn more (in French).</span></p>
+    <ul class="res-list">
+      <li><a href="https://www.monparcourshandicap.gouv.fr/scolarite/quest-ce-que-le-pap-plan-daccompagnement-personnalise" target="_blank" rel="noopener"><strong>Mon Parcours Handicap — le PAP</strong></a><span class="fr">Le site officiel explique le Plan d'Accompagnement Personnalisé.</span><span class="en">Official French site explaining the PAP school support plan.</span></li>
+      <li><a href="https://www.ffdys.com" target="_blank" rel="noopener"><strong>FFDys</strong></a><span class="fr">Fédération française des Dys : informations sur les troubles des apprentissages.</span><span class="en">French federation for learning disorders (dyslexia, dyspraxia…).</span></li>
+      <li><a href="https://www.tdah-france.fr" target="_blank" rel="noopener"><strong>TDAH France</strong></a><span class="fr">Association d'aide aux familles concernées par le TDAH.</span><span class="en">Support association for families affected by ADHD.</span></li>
+      <li><a href="https://fno.fr" target="_blank" rel="noopener"><strong>FNO</strong></a><span class="fr">Fédération nationale des orthophonistes : comprendre l'orthophonie.</span><span class="en">French national federation of speech therapists.</span></li>
+    </ul>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="container">
+    <p>© <span id="year"></span> Emilie Canneva — <span class="fr">Orthophoniste à Vannes (Morbihan)</span><span class="en">Speech-language therapist in Vannes (Morbihan)</span> · RPPS : 10010303633 · <a href="./#contact">Contact</a></p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
